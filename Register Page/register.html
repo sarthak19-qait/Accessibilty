@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="My Page"> 
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../Login Page/login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div id="ui">
+                    <h1 class="headingg text-center">Registration Form</h1>
+                    <form class="form-group text-center">
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="fn" class="lab">First Name</label>
+                                <input id="fn" type="text" required placeholder="Enter your first name" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                    <label for="ln" class="lab">Last Name</label>
+                                    <input id="ln" required type="text" placeholder="Enter your last name" class="form-control">
+                            </div>
+                        </div>
+                        <br>
+                        <label for="e" class="lab">Email</label>
+                        <input id="e" type="email" required placeholder="Enter your email" class="form-control"><br>
+                        <div class="row">
+                        <div class="col-md-6">
+                            <label for="p" class="lab">Password</label>
+                            <input id="p" type="password" required placeholder="Enter your password" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="rp" class="lab">Re-Type Password</label>
+                            <input id="rp" type="password" required placeholder="Retype Again" class="form-control">
+                        </div>
+                        </div>
+                        <br>
+                        <label class="lab">Gender &nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <label for="m" class="radio-inline lab">Male</label>
+                            <input id="m" type="radio" value="Male" name="gender">&nbsp;&nbsp;
+                        <label for="f" class="radio-inline lab">Female</label>
+                            <input id="f" type="radio" value="Female" name="gender">&nbsp;&nbsp;
+                        <label for="o" class="radio-inline lab">Other</label> 
+                            <input id="o" type="radio" value="Other" name="gender">
+                        <br><br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="no" class="lab">Phone Number</label>
+                                <input id="no" required type="number" class="form-control">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="dob" class="lab">Date Of Birth</label>
+                                <input id="dob" required type="date" class="form-control">
+                            </div>
+                        </div>
+                        <br>
+                        <label class="lab">Language &nbsp;&nbsp;&nbsp;&nbsp;</label>
+                        <label class="checkbox-inline lab"><input type="checkbox" value="Hindi" name="gender">Hindi</label>&nbsp;&nbsp;
+                        <label class="checkbox-inline lab"><input type="checkbox" value="English" name="gender">English</label>&nbsp;&nbsp;
+                        <label class="checkbox-inline lab"><input type="checkbox" value="Japanese" name="gender">Japanese</label> 
+                        <br><br>
+                        <div class="dropdown">
+                            <button class="btn btn-primary dropdown-toggle btn-block btn-lg" type="button" data-toggle="dropdown">Country
+                            <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">India</a></li>
+                                <li><a href="#">USA</a></li>
+                                <li><a href="#">New York</a></li>
+                            </ul>
+                        </div>
+                        <br>
+                        <label for="ch" class="lab">Choose file</label>
+                        <input id="ch" type="file" class="form-control"><br>
+                        <input type="submit" value="Submit" class="btn btn-success btn-block btn-lg">
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+</body>
+</html>
